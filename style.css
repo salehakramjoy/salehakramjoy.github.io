@@ -59,10 +59,19 @@ body{
 	width:170px;
 	border-right:none;
 	border-bottom:1px solid black;
+	position:relative;
+}
+#nav ul li ul li ul{
+	position:absolute;
+	top:-999999px;
+}
+#nav ul li ul li:hover ul{
+	top:0;
+	left:170px;
 }
 #section img{
-	width:960px;
-	height:540px;
+	width:310px;
+	height:180px;
 	vertical-align:middle;
 }
 #content_wrapper{
